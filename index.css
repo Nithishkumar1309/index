@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{background-color: rgb(247, 189, 81);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.box h2{
+    font-size: 30px;
+}
+.box:hover{
+    background-color: mediumaquamarine;
+}
+h2{
+    margin-left: 90px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   gap: 30px;
+   padding-right: 100px;
+}
+button{
+    color: white;
+    background-color: rgb(219, 52, 52);
+    padding-left: 20px; 
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:magenta;
+    border-radius: 25px;
+    transition-duration: 2s;
+    color: aqua;
+}
+video{
+    height: 70vh;
+    width:100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.b h2{
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.c img{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+}
+.c img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.d img{
+    width: 350px;
+    height: 300px;
+}
+.d img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.e img{
+    width: 350px;
+    height: 300px;
+}
+.e img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.contain{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+span{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.contain button{
+    background-color: white;
+    color: orange;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    padding-left: 10px;
+}
+.f img{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+}
+.f img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.g img{
+    width: 350px;
+    height: 300px;
+}
+.g img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.h img{
+    width: 350px;
+    height: 300px;
+}
+.h img:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.container button{
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    padding: 15px;
+}
+.s{
+   width: 400px;
+}
+.s h1{
+    background-color: black;
+    color: aliceblue;
+}
+h2{
+        font-size: 20px;
+        padding-right: 20px;
+        display: flex;
+}
+.st img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.s{
+    position: absolute;
+    color: black;
+justify-content: center;
+align-items: center;
+    font-size: 25px;
+}
+.section{
+    display: block;
+}
+.i{
+    font-size: larger;
+    padding-top: 60px;
+    text-align: center;
+}
+.j img{
+    height: 350px;
+    width:600px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.j h3{
+    padding-left: 200px;
+}
+.k img{
+    height:350px;
+    width:600px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.k h3{
+    padding-left: 200px;
+} 
+.l img{
+    height:350px;
+    width:600px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.l h3{
+    padding-left: 200px;
+}
+.m img{
+    height:350px;
+    width:600px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.m h3{
+    padding-left: 200px;
+}
+.ne{
+    display: flex;
+}
+.ne img:hover{
+    cursor: pointer;
+}
+.ws{
+    display: flex;
+}
+.ws img:hover{
+    cursor: pointer;
+}
+.image-container{
+    position: relative;
+}
+.image-container img{
+    display: block;
+    width: 100%;
+    height: 600px;
+    padding-top: 150px;
+}
+.overlay-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size:large;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    position: absolute;
+    top: 90;
+    left: 3%;
+    padding-top: 60px;
+}
+.text p{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.text button{
+    color: white;
+    background-color: black;
+    padding-left: 20px; 
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.tex p{
+    position: relativ;
+    font-size: 50px;
+    padding-top: 60px;
+    font-size: 20px;
+    margin-left: 400px;
+}
+.tex h6{
+    font-size: 50px;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-left: 400px;
+    color: black;
+}
+.te p{
+    position: relative;
+    font-size: 50px;
+    font-size: 20px;
+    margin-top: 1px;
+    padding-left: 600px;
+    margin-bottom: 1200px;
+}
+.st{
+    position: relative;
+}
+.s{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+}
+.div h6{
+font-size: x-large;
+padding-left: 150PX;
+margin-top: 40px;
+}
+.di h6{
+    font-size: 15px;
+}
+.div{
+    display: flex;
+}
+.team{
+    height: 1600px;
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 50px;
+}
+.team h1{
+    font-size:45px;
+    margin-left: 500px;
+    padding-top: 80px;
+}
+.team img{
+    height: 400px;
+    width: 800px;
+    padding-top: 50px;
+    padding-left: 500px;
+}
+.team img:hover{
+    cursor: pointer;
+}
+.team h3{
+    font-size:23px;
+    margin-left: 600px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.team span{
+    padding-right:60px ;
+    font-size: 15px;
+}
+.image-container{
+    position: relative;
+}
+.te {
+    padding-left: 700px;
+    position: absolute;
+    bottom: 60px;
+    font-size: 25px;
+}
+.icon{
+    display: flex;
+    border-radius: 1px;
+    margin-top: 10px;
+    gap: 10px;
+}
+.leave{
+    font-size: 60px;
+    padding-left: 150px;
+    margin-top: 50px;
+}
+form{
+    margin-top: 60px;
+    padding-left: 200px;
+    background-image: url(./alex-haney-CAhjZmVk5H4-unsplash.jpg);
+    background-attachment: fixed;
+}
+form h1{
+    color: blue;
+}
+input{
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.area{
+    height: 200px;
+    width: 500px;
+}
+button{
+    margin-top: 20px;
+}
+.leave{
+    background-color: aliceblue;
+}
